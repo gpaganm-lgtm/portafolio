@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio profesional de Ginés Pagán: soporte IT, administración de sistemas, servidores, operaciones, mejora continua, análisis de datos y gestión administrativa." />
+    <meta name="theme-color" content="#0a0e17" />
+    <title>Ginés Pagán | Portfolio IT & Sistemas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Iconos SVG integrados para evitar dependencias externas -->
+    <svg class="svg-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-terminal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></symbol>
+      <symbol id="icon-server" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></symbol>
+      <symbol id="icon-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></symbol>
+      <symbol id="icon-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></symbol>
+      <symbol id="icon-cpu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></symbol>
+    </svg>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#" class="brand">
+          <div class="brand-mark">&gt;_</div>
+          <span class="brand-text">GP.Sistemas</span>
+        </a>
+        <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#formacion">Formación</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <p class="eyebrow">Soporte IT · Sistemas · Operaciones</p>
+            <h1>Ginés Pagán</h1>
+            <p class="hero-text">
+              Especialista en optimización de operaciones críticas y soporte de sistemas. Más de 20 años de experiencia liderando la eficiencia organizativa, la mejora continua y el análisis de datos en entornos de alta exigencia tecnológica e industrial.
+            </p>
+            <div class="hero-tags">
+              <span>#SistemasIT</span>
+              <span>#LeanSixSigma</span>
+              <span>#Helpdesk</span>
+              <span>#SOC</span>
+              <span>#DataAnalysis</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#contacto" class="button primary">Contactar</a>
+              <a href="#experiencia" class="button secondary">Ver Experiencia</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="terminal-card">
+              <div class="terminal-top">
+                <span></span><span></span><span></span>
+                <p>bash - core_status.sh</p>
+              </div>
+              <div class="terminal-body">
+                <p><span class="prompt">gines@portfolio:~$</span> init --profile</p>
+                <p class="ok">[OK] Cargando arquitectura de sistemas...</p>
+                <p class="ok">[OK] Monitores operativos (SOC) estables.</p>
+                <p class="ok">[OK] Certificación Lean Green Belt detectada.</p>
+                <ul>
+                  <li><span>TRAYECTORIA:</span> 20+ Años</li>
+                  <li><span>SOPORTE IT:</span> Activo</li>
+                  <li><span>DISPONIBILIDAD:</span> Inmediata</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="sobre-mi">
+        <div class="container two-col reveal">
+          <div>
+            <p class="eyebrow">Perfil Profesional</p>
+            <h2>Sobre mí</h2>
+          </div>
+          <div class="content-card">
+            <p>
+              Profesional polivalente con una sólida trayectoria enfocada en la gestión operativa, la administración de flujos de trabajo críticos y el despliegue de soluciones tecnológicas eficientes. Mi experiencia engloba la resolución ágil de incidencias complejas y la aplicación rigurosa de metodologías de mejora continua en corporaciones de primer nivel.
+            </p>
+            <p>
+              Actualmente enfocado hacia el área del **Soporte Técnico IT**, **Administración de Sistemas** y **Operaciones de Seguridad (SOC)**. Combino competencias en redes, diagnóstico de hardware/software, seguridad perimetral y entornos cloud, con una sólida capacidad analítica avanzada (Power BI, Excel Técnico) para optimizar infraestructuras y garantizar la alta disponibilidad de los servicios.
+            </p>
+            <div class="quick-facts">
+              <div>
+                <strong>20+</strong>
+                <span>Años de Exp.</span>
+              </div>
+              <div>
+                <strong>Lean</strong>
+                <span>Green Belt</span>
+              </div>
+              <div>
+                <strong>IT & Ops</strong>
+                <span>Enfoque</span>
+              </div>
+              <div>
+                <strong>Sistemas</strong>
+                <span>Hardening</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experiencia">
+        <div class="container">
+          <div class="centered reveal">
+            <p class="eyebrow">Historial de Impacto</p>
+            <h2>Experiencia Laboral</h2>
+            <p>Trayectoria centrada en la excelencia operativa y la gestión de contingencias en entornos de alta disponibilidad.</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="meta">Amazon · Operaciones y Logística Crítica</p>
+                <h3>Especialista en Procesos y Flujos de Trabajo</h3>
+                <p>Gestión avanzada de flujos operativos complejos bajo métricas de alta exigencia temporal y de calidad. Resolución de incidencias sistémicas en tiempo real, supervisión de flujos logísticos digitales y optimización de herramientas internas para el control de inventario y distribución masiva.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="meta">Grupo Hefame · Distribución Farmacéutica</p>
+                <h3>Soporte Operativo y Continuidad de Negocio</h3>
+                <p>Supervisión y control de procesos logísticos automatizados en entornos críticos de suministro sanitario. Diagnóstico de bloqueos operativos, control de flujos de datos en tiempo real y aseguramiento del cumplimiento de normativas de alta disponibilidad.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="meta">Repsol (Cartagena) · Sector Energético</p>
+                <h3>Control de Procesos e Infraestructura Industrial</h3>
+                <p>Monitorización y seguimiento de sistemas de control e indicadores operativos en planta industrial compleja. Colaboración estrecha en la aplicación de protocolos de seguridad crítica, monitorización de datos en tiempo real y gestión documental bajo rigurosos estándares internacionales.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="meta">Hospital Herlev (Dinamarca) · Sector Sanitario Internacional</p>
+                <h3>Coordinación Operativa y Soporte Logístico</h3>
+                <p>Despliegue y optimización de flujos de trabajo e insumos dentro de un complejo hospitalario de gran escala en Dinamarca. Gestión adaptativa ante contingencias críticas y resolución ágil de necesidades de infraestructura operativa en entornos de alta presión.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="habilidades">
+        <div class="container">
+          <div class="centered reveal">
+            <p class="eyebrow">Competencias Técnicas</p>
+            <h2>Ecosistema de Sistemas e IT</h2>
+            <p>Conocimientos y herramientas enfocadas en la monitorización, soporte integral y optimización de entornos corporativos.</p>
+          </div>
+          <div class="skills-grid reveal">
+            <div class="skill-card">
+              <svg><use href="#icon-server"></use></svg>
+              <h3>Administración de Sistemas</h3>
+              <p>Despliegue y gestión de entornos Windows Server y Linux (Debian/Ubuntu). Gestión de Active Directory, políticas de grupo (GPOs) y permisos de red.</p>
+            </div>
+            <div class="skill-card">
+              <svg><use href="#icon-terminal"></use></svg>
+              <h3>Soporte Técnico & Helpdesk</h3>
+              <p>Diagnóstico avanzado de fallos (troubleshooting) de hardware y software. Gestión de incidencias por niveles y soporte remoto a usuarios.</p>
+            </div>
+            <div class="skill-card">
+              <svg><use href="#icon-shield"></use></svg>
+              <h3>Seguridad & Monitoreo (SOC)</h3>
+              <p>Comprensión del ciclo de vida de incidentes de seguridad, monitorización de logs, hardening básico de sistemas y gestión de firewalls perimetrales.</p>
+            </div>
+            <div class="skill-card">
+              <svg><use href="#icon-database"></use></svg>
+              <h3>Análisis de Datos</h3>
+              <p>Modelado y diseño de Dashboards avanzados en Power BI, conexiones mediante Power Query, Power Pivot y automatizaciones con fórmulas DAX.</p>
+            </div>
+            <div class="skill-card">
+              <svg><use href="#icon-activity"></use></svg>
+              <h3>Mejora Continua</h3>
+              <p>Metodología Lean Six Sigma Green Belt aplicada a la reducción de cuellos de botella informáticos, optimización de tiempos de respuesta y QA.</p>
+            </div>
+            <div class="skill-card">
+              <svg><use href="#icon-cpu"></use></svg>
+              <h3>Automatización & Redes</h3>
+              <p>Fundamentos de scripting (Bash/PowerShell), gestión de direccionamiento IP, configuración de routers y gestión de servicios DNS/DHCP.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="formacion">
+        <div class="container two-col reveal">
+          <div>
+            <p class="eyebrow">Formación Académica</p>
+            <h2>Educación & Certificaciones</h2>
+            <p>Evolución continua y capacitación técnica complementaria.</p>
+          </div>
+          <div class="education-list">
+            <div class="education-item">
+              <h3>Técnico Superior en Administración y Finanzas</h3>
+              <p>Especialización en gestión procedimental, control de flujos de caja, control analítico y auditorías administrativas internas.</p>
+            </div>
+            <div class="education-item">
+              <h3>Certificación Lean Six Sigma Green Belt</h3>
+              <p>Metodología avanzada orientada al análisis estadístico de procesos, erradicación de ineficiencias organizativas y mejora continua.</p>
+            </div>
+            <div class="education-item">
+              <h3>Microsoft Excel Avanzado</h3>
+              <p>UNED · Enero 2022 - Junio 2022</p>
+            </div>
+            <div class="education-item">
+              <h3>Certificaciones Complementarias</h3>
+              <p>Power BI Dashboard Design, diseño logístico integrado con Power Query, herramientas de control analítico, Sage ContaPlus Élite y gestión automatizada de tesorería.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contacto">
+        <div class="container contact-card reveal">
+          <p class="eyebrow">Contacto</p>
+          <h2>¿Hablamos?</h2>
+          <p>Disponible para incorporarme de manera inmediata a equipos de Soporte IT, Administración de Sistemas, Centros de Monitorización (SOC) y Mejora Continua de Procesos.</p>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:ginespm@proton.me">ginespm@proton.me</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/lpaganmo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <p>© <span id="year"></span> Ginés Pagán. Portfolio IT & Sistemas.</p>
+        </div>
+        <div class="footer-companies">
+          <p class="companies-title">Trayectoria e Impacto:</p>
+          <div class="company-links">
+            <a href="https://www.aboutamazon.es/" target="_blank" rel="noopener noreferrer" class="company-tag">Amazon</a>
+            <a href="https://www.hefame.es/" target="_blank" rel="noopener noreferrer" class="company-tag">Grupo Hefame</a>
+            <a href="https://www.repsol.es/" target="_blank" rel="noopener noreferrer" class="company-tag">Repsol (Cartagena)</a>
+            <a href="https://www.herlevhospital.dk/" target="_blank" rel="noopener noreferrer" class="company-tag">Hospital Herlev (DK)</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
